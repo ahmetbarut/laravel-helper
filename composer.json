@@ -1,0 +1,25 @@
+{
+    "name": "ahmetbarut/laravel-helper",
+    "description": "Laravele attığım ve kabul edilmeyen çekme istekleri",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AhmetBarut\\LaravelHelper\\": "src/"
+        },
+        "files": [
+            "./functions/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Ahmet Barut",
+            "email": "ahmetbarut588@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^4.4|^5.0 || ^6.0"
+    }
+}
